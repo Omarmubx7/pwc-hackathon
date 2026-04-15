@@ -1,0 +1,11 @@
+{
+  "name": "projectx",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix my-app run dev",
+    "build": "npm --prefix my-app run build",
+    "lint": "npm --prefix my-app run lint",
+    "preview": "npm --prefix my-app run preview"
+  }
+}
