@@ -180,7 +180,7 @@ function PageFrame({ activePage, onNavigate, stats, children }) {
     <div className="min-h-screen px-4 py-5 text-slate-900 sm:px-6 lg:px-8">
       <div className="mx-auto flex min-h-[calc(100vh-2.5rem)] w-full max-w-7xl flex-col gap-6">
         <header className="overflow-hidden rounded-4xl border border-slate-200 bg-white shadow-[0_10px_28px_rgba(15,23,42,0.08)]">
-          <div className="bg-[linear-gradient(135deg,#0f172a_0%,#1e3a8a_62%,#1d4ed8_100%)] px-6 py-6 text-white sm:px-8">
+          <div className="bg-blue-900 px-6 py-6 text-white sm:px-8">
             <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.32em] text-blue-200">PwC hackathon demo</p>
@@ -413,7 +413,7 @@ function App() {
           </div>
         </div>
 
-        <div className="mt-6 min-h-136 rounded-4xl bg-[linear-gradient(180deg,#f8fbfc_0%,#edf4f8_100%)] p-4 sm:p-6">
+        <div className="mt-6 min-h-136 rounded-4xl bg-slate-50 p-4 sm:p-6">
           {activeJob ? (
             <div className="relative mx-auto h-116 max-w-xl">
               <div className="absolute inset-x-0 bottom-4 top-10 rounded-[1.75rem] border border-slate-200 bg-white/70 p-5 opacity-60 shadow-sm blur-[0.2px] translate-y-4 scale-[0.97]">
